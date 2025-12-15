@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+Unix.csv
+compare_csv.py
+linux.csv
+pyproject.toml
+requirements.txt
+sample_usage.py
+compare_csv.egg-info/PKG-INFO
+compare_csv.egg-info/SOURCES.txt
+compare_csv.egg-info/dependency_links.txt
+compare_csv.egg-info/entry_points.txt
+compare_csv.egg-info/requires.txt
+compare_csv.egg-info/top_level.txt
