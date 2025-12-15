@@ -475,7 +475,7 @@ def main():
     )
     p.add_argument('a', help='First CSV file (will be swapped to be reference if smaller)')
     p.add_argument('b', help='Second CSV file (will be swapped to be reference if smaller)')
-    p.add_argument('--key', default=None, help='Comma-separated primary key columns (default: first column)')
+    p.add_argument('--key', default=None, help='Comma-separated primary key columns (default: ALL columns)')
     p.add_argument('--outdir', default=None, help='Output directory (default: value of --name)')
     p.add_argument('--name', required=True, help='Name for output files and default outdir')
     p.add_argument('--prefix', default='diff', help='Filename prefix for outputs')
