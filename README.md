@@ -26,24 +26,12 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Or install the package (provides `compare-csv` script):
-
-```bash
-pip install .
-```
-
 ## Usage
 
 Run the script directly:
 
 ```bash
 python compare_csv.py <fileA.csv> <fileB.csv> --name <output_dir_or_name> [options]
-```
-
-Or, after installing the package, use the console script:
-
-```bash
-compare-csv <fileA.csv> <fileB.csv> --name <output_dir_or_name> [options]
 ```
 
 Required flags:
