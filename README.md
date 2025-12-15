@@ -2,6 +2,10 @@
 
 Compare two CSV files and export differences using database-style operations (DELETED / INSERTED / UPDATED).
 
+## Authors
+
+- [@cunkrinks](https://www.github.com/cunkrinks)
+
 ## Features
 
 - Compare two CSV files by primary key (default: all columns).
@@ -99,7 +103,7 @@ python compare_csv.py a.csv b.csv --key snap,inst --name result --report
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0. See the `LICENSE` file for details.
+This project is licensed under the GNU General Public License v3.0. [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
 ---
 
