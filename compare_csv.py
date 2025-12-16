@@ -163,7 +163,6 @@ def write_excel_sidebyside(a: pd.DataFrame, b: pd.DataFrame, combined: pd.DataFr
     orange_fill = PatternFill(start_color="FFA500", end_color="FFA500", fill_type="solid")
     
     # Align columns to the same order (use ordering from a)
-        # Align columns to the same order (use ordering from a)
     cols_a = list(a.columns)
     cols_b = list(a.columns)  # ensure same order on B side too
     
